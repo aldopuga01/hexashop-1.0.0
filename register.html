@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
-    <title>Menú</title>
+    <title>Registrarse</title>
 
 
     <!-- Additional CSS Files -->
@@ -75,7 +75,7 @@ https://templatemo.com/tm-571-hexashop
                                     <li><a href="contact.html">Contactanos</a></li>
                                 </ul>
                             </li>
-                            <li><a href="login.html" class="active">Iniciar sesión</a></li>
+                            <li><a href="#" class="active">Iniciar sesión</a></li>
                         </ul>        
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -93,21 +93,26 @@ https://templatemo.com/tm-571-hexashop
     <form class="form-signin">
         <div class="text-center mb-4" style="margin-top: 100px; margin-bottom: 100px;">
             <img class="mb-4" src="assets/images/logo.png" alt="" width="72" height="72">
-            <h1 class="h3 mb-3 font-weight-normal">¡Bienvenido de nuevo!</h1>
+            <h1 class="h3 mb-3 font-weight-normal">¡Bienvenido!</h1>
             </div>
         
         <div class="form-label-group">
-            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+            <input type="email" id="inputUsuario" class="form-control" placeholder="Usuario" required="" autofocus="">
+            <label for="inputEmail">Usuario</label>
+        </div>
+
+        <div class="form-label-group">
+            <input type="email" id="inputEmail" class="form-control" placeholder="Correo" required="" autofocus="">
             <label for="inputEmail">Correo</label>
         </div>
         
         <div class="form-label-group">
-            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+            <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" required="">
             <label for="inputPassword">Contraseña</label>
         </div>
-        
+
         <div class="form-label-group">
-            <p>Aún no tienes una cuenta<a href="login.html"> registrate</a></p>
+            <p>Ya tienes una cuenta<a href="login.html"> iniciar sesión</a></p>
         </div>
 
         <button class="btn btn-lg btn-primary btn-block" type="submit">Registrarte</button>

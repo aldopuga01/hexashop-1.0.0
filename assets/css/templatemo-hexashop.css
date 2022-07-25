@@ -712,6 +712,7 @@ banner
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 15px;
+  backdrop-filter: blur(10px);
 }
 
 .main-banner .right-content .right-first-image .thumb .inner-content span {
